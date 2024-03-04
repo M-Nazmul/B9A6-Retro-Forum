@@ -19,7 +19,7 @@ const displayTimeline = posts => {
         <div class="flex gap-6  p-6 md:p-1-0">
           <!-- Avatar -->
           <div class="avatar indicator">
-            <span class="indicator-item badge badge-success"></span> 
+          <span class="indicator-item badge ${post.isActive ? "badge-success":"bg-red-500"}"></span> 
             <div class="w-20 h-20 rounded-lg">
               <img alt="Avatar" src="${post.image}" />
             </div>
