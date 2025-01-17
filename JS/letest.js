@@ -27,7 +27,7 @@ const displayPost = datas => {
                 </div>
                 <div>
                   <h2 class="font-bold text-base">${data.author.name}</h2>
-                  <p class="text-gray-txt font-normal text-[18px]">${data.author.designation}</p>
+                  <p class="text-gray-txt font-normal text-[18px]">${data.author.designation ? data.author.designation : "Unknown"}</p>
                 </div>
               </div>
             </div>
